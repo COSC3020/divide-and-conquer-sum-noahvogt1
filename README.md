@@ -28,3 +28,8 @@ and solve it as we did in the lectures. Give the final $\Theta$ complexity.
 
 Describe your reasoning and the conclusion you've come to. Your reasoning is the
 most important part. Add your answer to this markdown file.
+
+The runtime of the algorithm that I made was 1324 ms which seems slow however I 
+ran it over an array of size 10,000,000. The array gets split into 3 sub arrays
+and then splits again, giving us log(n) and when we divide the into the subarrays,
+we are splitting effectivly into the whole array giving us \$Theta$ = nlog(n)
