@@ -33,4 +33,4 @@ The runtime of the algorithm that I made was 1324ms which seems slow however I
 ran it over an array of size 10,000,000. There are three merges into thirds giving
 us 3T(n/3), then the cost of merging them together is an additional constant 1. 
 Meaning the recurrence relation is T(n) = 3T(n/3) ignoring the constant factor. 
-Solving this equation gives us a runtime complexity of $\Theta$ = n.
+Solving this equation gives us a runtime complexity of $T(n) &isin; \Theta(n)$.
